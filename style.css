@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    width: 90%;
+    margin: 5% auto;
+}
+h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h5{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-top: 2rem; 
+}
+/* Form */
+form{
+    flex-basis: 50%;  
+    margin-top: 2rem;
+}
+.inputs{
+    width: 100%;
+    background-color: none;
+    border: 1px solid #848484;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding-left: 30px;
+}
+.log{
+    margin: 1rem 0;
+    position: relative;
+}
+.log input::placeholder , .count input::placeholder{
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.material-icons{
+    position: absolute;
+    bottom: 0;
+    padding: 0.5rem  0rem  0.3rem 0.5rem;
+}
+
+.country-postal{
+display: flex;
+justify-content: space-between;
+}
+.count{
+    flex-basis: 47%;
+}
+.post{
+    flex-basis: 47%;
+    
+}
+option{
+    background-color: #828282;
+    padding-bottom: 1rem;
+    border: 2px solid red;
+    font-size: 0.7rem;
+}
+
+.check{
+    font-size: 0.7rem;
+}
+.check label{
+    margin-left: 0.2rem;
+}
+form button{
+    background-color: #f2994a;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    float: right;
+    border-radius:10px ;
+    margin-top: 1.5rem;
+}
+/* card */
+.card{
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+.item .image{
+    flex-basis: 40%;
+}
+.item .image img{
+    width: 100%;
+    border-radius: 15px;
+}
+.item .card-text{
+    flex-basis: 50%;
+}
+.card-text h6{
+    font-weight: 600;
+   
+}
+.cost{
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+}
+.cost span{
+    color: #f2994a;
+    margin-right: 1rem;
+}
+.nav{
+    margin: 5rem 0 0;
+    border: 1px solid #828282;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5px;
+}
+.nav button{
+    background-color: #e0e0e0;
+    
+}
+.nav .plus, .nav span{
+    margin-left: 0.5rem;
+}
+.further-info{
+    margin-top: 8rem;
+}
+.further-info p{
+    border-top: 1px solid #bdbdbd;
+    padding: 0.7rem 0.7rem;
+}
+.further-info p span{
+    float: right;
+}
+.plus:hover, .minus:hover{
+    color: #fff;
+}
+footer{
+    text-align: center;
+    margin-top: 5rem;
+    color: #bdbdbd;
+}
+
+@media only screen and (min-width:768px){
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    form{
+        flex-basis: 50%; 
+        margin-top: 0;   
+        padding-right: 1rem;
+    }
+    .inputs{
+        padding: 0.8rem;
+      padding-left: 30px;
+    }
+    .log input::placeholder , .count input::placeholder{
+        font-size: 0.7rem;
+        
+    }
+    
+    .material-icons{
+        position: absolute;
+        bottom: 0;
+        padding: 0.3rem  0rem  0.7rem 0.5rem;
+    }
+    section{
+        flex-basis: 40%;
+    }
+    .further-info{
+        margin-top: 5rem;
+    }
+    .cost{
+        margin-top: 0.5rem;
+       
+    }
+    .nav{    
+        padding: 0.5rem 1.2rem;
+    }
+}

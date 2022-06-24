@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Checkout Page</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Checkout</h2>
+    </header>
+    <main>
+        <form action="#">
+            <h5>contact information</h5>
+            <div class="log">
+                <label for="Email">Email</label>
+                <br>
+                <span class="material-icons">&#xe0be;</span>
+                <input class="inputs" type="text" placeholder="Enter your email...">
+            </div>
+            <div class="log">
+                <label for="Email">Phone</label>
+                <br>
+                <span class="material-icons">&#xe0b0;</span>
+                <input class="inputs" type="text" placeholder="Enter your phone...">
+            </div>
+            <h5>Shipping address</h5>
+            <div class="log">
+                <label for="Email">Full name</label>
+                <br>
+                <span class="material-icons">&#xe853;</span>
+                <input class="inputs" type="text" placeholder="Rodney Cotton">
+            </div>
+            <div class="log">
+                <label for="Email">Address</label>
+                <br>
+                <span class="material-icons">&#xe88a;</span>
+                <input class="inputs" type="text" placeholder="Your address">
+            </div>
+            <div class="log">
+                <label for="Email">City</label>
+                <br>
+                <span class="material-icons">&#xe7f1;</span>
+                <input class="inputs" type="text" placeholder="Your city...">
+            </div>
+            <div class="country-postal log">
+                <div class="count">
+                    <label for="Email">Country</label>
+                    <br>
+                    <span class="material-icons">&#xe80b;</span>
+                    <select name="country" id="" class="inputs">
+                        <option value="your country">Your country..</option>
+                    </select>
+                </div>
+                <div class="post">
+                    <label for="Email">Postal</label>
+                    <br>
+                    <span class="material-icons">&#xe89b;</span>
+                    <input type="number" placeholder="Your postal code.." class="inputs">
+                </div>
+            </div>
+            <br>
+            <div class="check">
+                <input type="checkbox">
+                <label for="checkb">Save this information for next time</label>
+            </div>
+            <button>continue</button>
+        </form>
+        <section>
+            <div class="card">
+                <div class="item-display">
+                    <div class="item">
+                        <div class="image">
+                            <img src="./asset/photo1.png" alt="bag image">
+                        </div>
+                        <div class="card-text">
+                            <h6>Vintage Backbag</h6>
+                            <p class="cost"><span>$54.99 </span> $94.99</p>
+                            <div class="nav">
+                                <button class="minus">-</button>
+                                <span class="item-num">1</span>
+                                <button class="plus">+</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="./asset/photo1.png" alt="bag image">
+                        </div>
+                        <div class="card-text">
+                            <h6>Vintage Backbag</h6>
+                            <p class="cost"><span>$54.99 </span> $94.99</p>
+                            <div class="nav">
+                                <button class="minus2">-</button>
+                                <span class="item-num2">1</span>
+                                <button class="plus2">+</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="further-info">
+                    <p>Shipping <span>$79</span></p>
+                    <p>Total <span>$148.98</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;bamideleaduke - devChallenge.io
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
