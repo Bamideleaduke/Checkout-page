@@ -37,7 +37,7 @@ form{
     width: 100%;
     background-color: none;
     border: 1px solid #848484;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 10px;
     margin-top: 0.5rem;
     padding-left: 30px;
@@ -54,7 +54,7 @@ form{
 .material-icons{
     position: absolute;
     bottom: 0;
-    padding: 0.5rem  0rem  0.3rem 0.5rem;
+    padding: 0.5rem  0rem  0.5rem 0.5rem;
 }
 
 .country-postal{
@@ -100,7 +100,7 @@ form button{
 .item{
     display: flex;
     justify-content: space-between;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 .item .image{
@@ -115,6 +115,7 @@ form button{
 }
 .card-text h6{
     font-weight: 600;
+    font-size: 0.8rem;
    
 }
 .cost{
@@ -137,9 +138,9 @@ form button{
     background-color: #e0e0e0;
     
 }
-.nav .plus, .nav span{
+ .nav .plus, .nav span, .nav .plus2, .nav span{
     margin-left: 0.5rem;
-}
+} 
 .further-info{
     margin-top: 8rem;
 }
@@ -187,6 +188,9 @@ footer{
     section{
         flex-basis: 40%;
     }
+    .item .image{
+        flex-basis: 35%;
+    }
     .further-info{
         margin-top: 5rem;
     }
@@ -197,4 +201,6 @@ footer{
     .nav{    
         padding: 0.5rem 1.2rem;
     }
+    
+    
 }
